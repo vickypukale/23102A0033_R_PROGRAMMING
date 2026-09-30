@@ -175,3 +175,8 @@ format(1234567,big.mark = ",")
 format(12345678,big.mark = ",")
 format(123456789,big.mark = ",")
 format(123456789,big.mark = "  ")
+
+data = c(4,5,9,4,6,6,7,7,9) 
+factor(data) 
+levels(data) = c('A','B','C','D') 
+data
